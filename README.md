@@ -168,7 +168,9 @@ python-dotenv
 ## 🧑‍💻 Author
 
 **Maitry Chauhan**
+
 🔗 [GitHub](https://github.com/maitry2212)
+
 💡 Engineering Student | Exploring AI, LangChain & Data Science
 
 ---

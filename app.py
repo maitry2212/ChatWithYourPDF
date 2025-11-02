@@ -119,7 +119,7 @@ if uploaded_file:
         st.success("Built and cached a new vector index for this file.")
 
     # LLM setup: read API key from environment or Streamlit secrets (do NOT hardcode)
-    google_api_key = "AIzaSyAB4EY7Pz6-ZP_ru6VaESYnBL2pq6QGn1k"
+    google_api_key = "YOUR_API_KEY"
     if not google_api_key:
         st.warning("Google API key not found. Set GOOGLE_API_KEY in environment or Streamlit secrets to enable Gemini LLM.")
     else:
@@ -144,4 +144,5 @@ if uploaded_file:
                     for i, doc in enumerate(response["source_documents"]):
                         st.code(doc.page_content, language="text")
             except Exception as e:
+
                 st.error(f"LLM query failed: {e}")

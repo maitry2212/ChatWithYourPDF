@@ -1,4 +1,4 @@
-# 🧠 PDF Question Answering using RAG & Gemini 2.0
+# 🧠 ChatWithYourPDF using RAG & Gemini 2.0
 
 This Streamlit web app lets you **upload a PDF**, then **ask questions** about its content using a **Retrieval-Augmented Generation (RAG)** pipeline powered by **LangChain**, **FAISS**, **Hugging Face embeddings**, and **Gemini 2.0 Flash**.
 

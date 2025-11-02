@@ -9,11 +9,17 @@ This Streamlit web app lets you **upload a PDF**, then **ask questions** about i
 ## 🚀 Features
 
 ✅ Upload and parse **any PDF document**
+
 ✅ Automatic **text extraction** and **chunking**
+
 ✅ **Vector embedding** using `HuggingFaceEmbeddings`
+
 ✅ Fast **semantic search** with **FAISS**
+
 ✅ Real-time **question answering** with **Gemini 2.0 Flash**
+
 ✅ Caching and indexing for improved performance
+
 ✅ Easy UI built with **Streamlit**
 
 ---
